@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1></h1>
     <button class="MyButton">Hello</button>
     <h1>Hello Students</h1>
     <h1 class="MyClass">Class Elements</h1>
@@ -14,9 +15,12 @@
 </body>
 <script>
     let button=document.querySelector(".MyButton");
+    let heading=document.querySelector("h1")
     button.addEventListener("click",Myfunction);
     function Myfunction(){
-        console.log("you have success full");
+        // console.log(heading);
+        heading.innerHTML+="you have clicked over here  "
+        // console.log(heading);
     }
 </script>
 </html>
