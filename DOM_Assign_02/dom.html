@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Assignment</title>
+    <link rel="stylesheet" href="dom.css" />
+  </head>
+  <body>
+    <center><h1>Mohd Ziya Fill Details</h1></center>
+
+    <center>
+      <table id="add">
+        <td>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Full-Name"
+            required
+          />
+        </td>
+
+        <td>
+          <input
+            type="Email"
+            name="email"
+            id="email"
+            placeholder="Email@123.com"
+            required
+          />
+        </td>
+
+        <td>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Mob Number"
+            required
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            name="course"
+            id="course"
+            placeholder="Course Name"
+            required
+          />
+        </td>
+
+        <td>
+          <input
+            type="submit"
+            name="button"
+            id="button"
+            value="Add"
+            onclick="AddRow()"
+          />
+        </td>
+      </table>
+    </center>
+
+    <center>
+      <table id="main-table">
+        <tr>
+          <th>Full-Name</th>
+          <th>Email@123.com</th>
+          <th>Mobile Number</th>
+          <th>Course Name</th>
+          <th>Action</th>
+        </tr>
+      </table>
+    </center>
+    <script src="dom.js"></script>
+  </body>
+</html>

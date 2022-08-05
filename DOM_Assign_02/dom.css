@@ -1,0 +1,49 @@
+#button{
+    font-size: 15px;
+    padding: 15px 40px 15px 40px;
+    margin-left: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: black;
+}
+table td input{
+    border:10px solid rgb(19, 49, 220);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    margin-left:20px ;
+    border: solid rgb(127, 14, 233)
+}
+table{
+    width: 90%;
+    margin-top: 100px;
+}
+
+tr th{
+    background-color: rgb(26, 158, 54);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+}
+#remove{
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    margin-left:20px ;
+
+}
+td {
+    background: #a4a434;
+    border: solid 2px black;
+    text-align: center;
+}
+h1{
+    border: solid 2px blue
+}
