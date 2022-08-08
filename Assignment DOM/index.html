@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dynamic table</title>
+  </head> 
+  <body>
+  
+    <main>
+      <div class="container">
+        <form class="mt-3-rem">
+            <label class="demo"><input type="text" name="name" id="name" placeholder="Mohd Ziya" value="Ziya"></label>
+            <label><input type="email" name="email" id="email" placeholder="abc@email.com"></label>
+            <label><input type="tel" name="tel" id="tel" placeholder="8960640496"></label>
+            <button type="submit" id="add-row">Add Row</button>
+        </form>
+        <div class="error-msg"></div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone No</th>
+              <th class="action-btn">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <div class="btns">
+      <div class="btn btn1" >btn1</div>
+      <div class="btn btn2">btn2</div>
+      <div class="btn btn3">btn3</div>
+      <div class="btn btn4">btn4</div>
+      <div class="btn btn5">btn5</div>
+    </div>
+    <script src="app.js"></script>
+    <!-- <script src="app2.js"></script> -->
+    <!-- <script src="app3.js"></script> -->
+  </body>
+</html>
