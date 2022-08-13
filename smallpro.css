@@ -1,0 +1,29 @@
+/* 
+.div1{
+    border: 2px solid red;
+    padding: 25px 50px 30px 70px;
+    margin: 5px;
+}
+body{
+    border: dotted 2px black;
+}
+#margin{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+} */
+
+a:link{
+    text-decoration: none;
+    color:red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: green;
+}
